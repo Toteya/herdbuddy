@@ -37,7 +37,7 @@ class BaseModel():
     def update(self):
         """ Updates the attributes
         """
-        self.updated_at = datetime.now
+        self.updated_at = datetime.now()
     
     def to_dict(self):
         """
